@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="666483e6-0bb9-4834-8f54-a897b329f5d3"
+  name="Ford"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="620336e5-3dde-4892-afd5-3aaef67a38ec"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAbstractFactoryPattern.Auto.Ford"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9f333a95-4b49-499c-8ff9-a9095eeb5d92"
+        name="Ford300Economy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1402c2c8-23cd-45d7-b085-7e39ed7a2641"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern.Auto.Ford Type%3DFord300Economy"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e21a7dcf-4603-4d92-9b53-23a49ce1471b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf89b700-f7b0-40af-8c31-dbfa748acc39">
+                <propertyInstance
+                  Id="cf4f9a29-59fb-4c37-837d-0aba6ee590ae"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="014e8a69-8f05-4a30-949f-c900cfb612a2">
+                <propertyInstance
+                  Id="e3f4588a-b9be-45f7-a2e1-6a24b49fa8ff"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="396a3fa4-b50c-40eb-9927-f98508e7c26f">
+                <propertyInstance
+                  Id="7dbb3ff9-b681-4429-b7c8-d5c3a9af85ba"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e1e0a7ad-7476-425c-9fec-48e627745b42">
+                <propertyInstance
+                  Id="ba978586-2bb7-44a2-b828-81196fe0d5c7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="52f5680e-4fc6-421a-a074-048a5656109a">
+                <propertyInstance
+                  Id="98098ccb-dfca-4be1-b7ca-e8731f26deb4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="7a80b0c1-a50b-4d5b-af7b-3887e810efff">
+            <interfaceMoniker
+              Id="6db31483-26bd-49a8-acf0-4769550be516"
+              LastKnownName="IAutomobile"
+              LastKnownLocation="Package3_1922.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="81585eb9-b83f-406c-b8cc-d3b79f901fdb"
+            name="Ford300Economy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d2549adc-f400-448d-8d18-57f4ec69b6f1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern.Auto.Ford Type%3DFord300Economy Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f6cb33ac-02b9-4f83-b86b-3acd5959b184"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41777b6a-bbaa-4479-b697-07d13f9df21f">
+                    <propertyInstance
+                      Id="a4766d8d-4d63-4af3-83d1-7aba0584dc12"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ecf81c9-2d46-44e5-aff2-c7a396472a9b">
+                    <propertyInstance
+                      Id="9bccd25e-bf1d-49cd-89a7-f208ed707a42"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dcc76e0-c2ee-46fa-bdbd-43b08165f865">
+                    <propertyInstance
+                      Id="8351a2f2-d948-41ea-af4b-166ccab3d6a4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f97ce93e-a4f9-4c40-88fd-8115285ea195">
+                    <propertyInstance
+                      Id="fc98db00-ebde-48e5-8ef8-a86f4bc84c5a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9eaacad5-db8a-464c-bcc3-c0375d64a4ff">
+                    <propertyInstance
+                      Id="bda98da5-8747-47ad-ac15-cdd1b10a0df2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cba01ba-7d4d-4fd7-91cf-e607d27f78bd">
+                    <propertyInstance
+                      Id="b8e4ee01-dc40-496d-b938-ca52598931c1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ff3cb6ba-96ba-40b1-b32f-072aafb85870"
+            name="Features"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="301f7ee5-ef17-404e-adff-9eccc4ace498"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern.Auto.Ford Type%3DFord300Economy Member%3DFeatures"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="83867cee-36b9-467d-bb62-5bd64f241d3b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adb72a9c-db79-4df4-a223-1dc666e07e09">
+                    <propertyInstance
+                      Id="92daeddb-995a-4142-8361-9bbbf8aab695"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbb7a2d8-bb8a-449b-b64e-68e1994fbac9">
+                    <propertyInstance
+                      Id="8073e771-2e9d-429f-a762-9401822cf53c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eddd45b6-7400-4d26-9551-9aa8a8e4ccaa">
+                    <propertyInstance
+                      Id="4b54322b-6bb3-4272-949d-02d0dda125eb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a254901-8137-4e4f-966b-65629ac3b0db">
+                    <propertyInstance
+                      Id="f2f21308-25e9-45bd-ad0d-e598064846ff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aca9399a-f472-4547-af2a-d29cf2a613a1">
+                    <propertyInstance
+                      Id="870f2277-bc7e-4e04-b74b-ac96c8216e22"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ce46dff-45bf-4d6a-a3e9-befcc342746e">
+                    <propertyInstance
+                      Id="2aad53b4-ee94-48a7-a75b-020f0b166691"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="834be241-cec1-454d-a86c-83eaf1d07dd6"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="54aa276f-3ff3-4d3c-9c7a-723e11cceac6"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9577be1c-7381-407c-9bb0-8cff48f0240c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern.Auto.Ford Type%3DFord300Economy Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4db51d1a-21f8-41dd-a867-3651045e3b3a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a3ba271-171b-4a49-98cc-4a237216fd92">
+                    <propertyInstance
+                      Id="65de670e-2f55-49ca-9284-4a4e4f97fb92"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3c3355d-fbc4-4b32-9e42-1262baead70c">
+                    <propertyInstance
+                      Id="783da83d-7e40-43fc-bc0a-8ce7608a8e37"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa0806ac-c425-4602-ad2b-13d4034a9dee">
+                    <propertyInstance
+                      Id="646ec80a-7e16-4799-b619-d8e91a2a4f0b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b24f497-9ede-4638-81b8-14e814aca80d">
+                    <propertyInstance
+                      Id="e03dda6e-1187-496a-9894-81b08fe6db9e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1484692f-7d38-409f-bf0b-aa978793a877">
+                    <propertyInstance
+                      Id="89d373bf-d1a6-440e-80ae-1a8ff9649829"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92e3e7bf-1f04-4188-af23-7b527502816a">
+                    <propertyInstance
+                      Id="d42e3131-e5bd-4576-911b-5da75a560e65"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7fc167c5-06e1-472b-b2c8-2427b32e5de5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="45e22500-9ca1-4bd3-a695-6eac38620135"
+        name="FordCougarLuxury"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9f31e509-66fe-4f90-9f87-d4741e9c0f09"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern.Auto.Ford Type%3DFordCougarLuxury"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="21e6e617-0136-4bdf-a915-ca70c1d86ed5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f3d66011-988c-4b78-b283-28ed7fb3f7fd">
+                <propertyInstance
+                  Id="678162c3-4783-4994-92f1-3736257c6504"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a448ba1f-c630-456c-a36f-10ff39dada32">
+                <propertyInstance
+                  Id="ec90b304-8738-4c93-b39a-d721612b97b5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f207507-f4b2-4570-b0f9-e0d284f4a636">
+                <propertyInstance
+                  Id="f16cff24-e168-42f6-8cf9-034fbcd013e4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b71d67a3-0716-405d-9176-7f2eccf35cf5">
+                <propertyInstance
+                  Id="8f7cb144-59b5-4d28-8e72-2f6874b9b55c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e4bb1da8-17be-47b9-aa9b-2cf61b8d7247">
+                <propertyInstance
+                  Id="165f9e81-dbb1-446c-a23a-8a2d297cbce0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="774e2efb-ca6f-4677-a922-37fecad44e0a">
+            <interfaceMoniker
+              Id="6db31483-26bd-49a8-acf0-4769550be516"
+              LastKnownName="IAutomobile"
+              LastKnownLocation="Package3_1922.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c76affab-35bb-464f-a36c-34d826ec34ed"
+            name="FordCougarLuxury"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b9e4e9f1-439d-4da8-8856-b2c69d49aabe"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern.Auto.Ford Type%3DFordCougarLuxury Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b71a6e83-d13c-4521-ab80-a25366c349e5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee5ee910-ea3f-4c2a-b156-c7085281afb7">
+                    <propertyInstance
+                      Id="0579b5ad-ac51-4d95-8e4e-8e8b4ad2d493"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13ccf336-05cc-4ff9-9d70-b5e0a861c2d9">
+                    <propertyInstance
+                      Id="2d7d02a0-1946-4229-9c13-73003582a08d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8f5f453-4235-47f2-9528-2d0bbb56890a">
+                    <propertyInstance
+                      Id="826ca0f8-844d-44d2-b084-39b6f391542e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9081b445-85f6-4ce1-b578-fa72bc1bff24">
+                    <propertyInstance
+                      Id="e9fcf77f-e47c-44c2-b624-54d74b5cf4f2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bb4d3ec-8ce4-4d15-917b-7da39894546e">
+                    <propertyInstance
+                      Id="89d095ea-3088-4881-9e6b-52a88b4cccbb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10a4d95d-a2e2-4a2b-89a8-b70638d798b6">
+                    <propertyInstance
+                      Id="f8860394-cc9c-4b15-b23f-94868dfd1489"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="caeb4198-7eb6-4e26-b111-0a5378d6efb3"
+            name="Features"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="91b75af8-efa6-4755-a230-53e3969bc8c1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern.Auto.Ford Type%3DFordCougarLuxury Member%3DFeatures"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c30ec03-c686-4eb7-96b4-573a28624e71"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d3db04a-d246-4b49-b4b5-35e787d98dd7">
+                    <propertyInstance
+                      Id="c4690d9b-48d1-480e-9cd1-0d04ea3f9752"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27e07a46-cc9e-4ae4-a308-9530994dac43">
+                    <propertyInstance
+                      Id="f1a195f8-b8df-42f3-895f-aef5763a26a6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae386744-3609-451b-b3c9-a64ccaa62116">
+                    <propertyInstance
+                      Id="61aa9428-3433-4f81-bca1-54c58d5a0a23"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ab139f3-1159-4a00-b6de-8f9d9be8056b">
+                    <propertyInstance
+                      Id="b3e59035-2354-45bd-ac49-485875af442b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="007c54f3-f386-462c-9bf6-36d281a10e3b">
+                    <propertyInstance
+                      Id="5ef02d63-c519-4365-a27e-323e49a8e465"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82a6b924-67a0-4bb1-bf5b-22095b0c5057">
+                    <propertyInstance
+                      Id="65ec9860-b462-40b5-ad74-cfa3908a2307"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="523435d9-8d5f-47fb-9039-6e3a0755b9bc"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="01ab4428-448f-4fe1-a86a-fa943b81c9a6"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ab9c7eb0-92da-4119-a38d-815af2c90163"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern.Auto.Ford Type%3DFordCougarLuxury Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="266821aa-d05a-4c93-8ac9-080553a4f90d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="561802e4-b834-4c15-873a-fd00333b3bbe">
+                    <propertyInstance
+                      Id="7ebc7e01-0b57-4d5d-860c-4b6393105e20"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eee984c2-5bf4-4ce0-bb2b-e5100146b1c6">
+                    <propertyInstance
+                      Id="9b4d8a9e-7647-4e1a-b8c2-b20bf6be4358"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da080356-7f6d-4561-8e3c-8fce4791e4dd">
+                    <propertyInstance
+                      Id="62d2e611-be60-4452-b4ee-28b3acf7d2f5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35f1ccd1-26c4-41ec-86ab-9a4671a065c7">
+                    <propertyInstance
+                      Id="4e2227ea-f845-40cf-ad81-bb4258341a9e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03d4dba0-0d46-4c7a-951a-003c2728ec72">
+                    <propertyInstance
+                      Id="eec782fe-ed2a-405a-8c97-bca4ce5c883b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0554482c-3606-482f-8bc6-7d7a4968959e">
+                    <propertyInstance
+                      Id="a713b224-cbbd-466a-9670-3f164d58c563"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e2898f98-a434-41c3-bac9-1c6b80c5787f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

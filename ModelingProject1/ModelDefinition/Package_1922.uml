@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="cd776431-be48-4796-a125-36185896e168"
+  name="AbstractFactoryPattern"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="72e6017e-61a9-4ea2-8189-8ded3d14eb20"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAbstractFactoryPattern"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="775d5eed-38d3-4293-980b-b637471360e1"
+        name="AutoGiver"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="39e29ade-4284-481f-8d8d-4f1ba83cc1ff"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern Type%3DAutoGiver"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d855258b-fed4-4489-9a7e-59e91de86f15"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58bac689-6949-4038-8696-5a350aa1e9c7">
+                <propertyInstance
+                  Id="3386515f-6a4e-4804-8ad6-c2696133254f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="734e0cff-efb4-4a97-b2c5-f457989d8e39">
+                <propertyInstance
+                  Id="7d81bfbc-1e59-4c0b-b2e0-9542a6db55c5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a7a64b4-263d-46c9-b03e-36878b9d0e6b">
+                <propertyInstance
+                  Id="977c3b91-78e0-4c02-b42c-d622ba723a7f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82e842ab-d774-411e-b18b-956a90836d4b">
+                <propertyInstance
+                  Id="57e3caf6-6c60-4aaa-94d6-1e2ba0427cf2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="38adc22e-4d31-4f90-8375-ffecdee25925">
+                <propertyInstance
+                  Id="f9c04c9a-8568-4300-92f6-390081563e11"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="68035f6f-9d4a-4f45-971a-18d579d9c38d"
+        LastKnownName="Factory"
+        LastKnownLocation="Package1_1922.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3f2e1625-628d-46f1-b5f8-4537f04f1c64"
+        LastKnownName="Auto"
+        LastKnownLocation="Package3_1922.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8a33b0ba-2a6d-435c-ae81-c7c6c9968d1e"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e8a7de94-8680-4794-9e2d-0611f1211e52"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="099bce02-2901-4ce2-9567-dbdfab6dee02"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae22b024-1872-43d2-8480-0bd051f12aca">
+                <propertyInstance
+                  Id="4e83fea0-fdfc-4441-ab69-2c19b2616cf0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b48dd3e3-74a3-4dbc-98f2-60006ca69250">
+                <propertyInstance
+                  Id="7777eff6-41d8-4243-8476-fbaca495b084"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f23d20f4-5b14-4cf7-beec-604fdd4d1559">
+                <propertyInstance
+                  Id="7f243918-bd3a-4958-8d8c-677fd105cabd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d3c2ac52-dcec-47c6-941a-5388258b9995">
+                <propertyInstance
+                  Id="358d30d6-4a19-472c-8294-0da0dfb2bb8f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7af9a00c-257b-4ab4-8fc0-f7c11cd56714">
+                <propertyInstance
+                  Id="e50a2c08-cb8d-45ce-adba-48e3f3a627fc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6d20072e-793d-4f7f-a90d-c49d1e0057f1"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fc37bc97-268d-41ef-beb9-473fcd5e56c7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="66ccf28f-d6e2-47c1-a156-2d97aca5a71c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efa1c517-26bb-4f53-bb68-24e20dffee52">
+                    <propertyInstance
+                      Id="7a060039-96cd-457f-bd0d-026d1fe26cfc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8530103-f777-4447-9663-852175728454">
+                    <propertyInstance
+                      Id="f835dd56-efc9-4d21-81ae-c193d6fef4ed"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3383a277-552e-44a2-8d7e-f36da7c02d42">
+                    <propertyInstance
+                      Id="2c68d971-9de5-4b1d-a1b1-d5126ff3a8d0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="045ef8ff-4b65-41fe-9697-43a94c8fe581">
+                    <propertyInstance
+                      Id="4a161b36-9ca0-43ee-b3e2-7e52c4e84e43"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03af9897-7629-40e2-b2a2-077f93ed43ee">
+                    <propertyInstance
+                      Id="d6a2ffec-c10f-4aea-8bcf-04748b9626ce"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b53e0e2-578d-444e-8c9c-bf5ad4a64044">
+                    <propertyInstance
+                      Id="e1592fe5-f2e9-4c8e-b5af-dc4bfcdbe058"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="af8ebd46-f9ef-400f-98f2-72a8b6fdbb26"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="2c754632-c25d-48b9-972c-39686fe9f2a4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d536be7d-4694-49fb-8dc6-de4d3b533407"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="66d7949c-15bc-4476-b327-d5d7725cc6ea"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3c8a44af-694c-42a6-984c-8ae851f2d3f6"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="96a6eef1-9d4a-4489-9c3d-1c66eab53cb7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FAbstract Factory Pattern%2FAbstractFactoryPattern%2Fbin%2FDebug%2FAbstractFactoryPattern.exe&quot; Namespace%3DAbstractFactoryPattern Type%3DProgram Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ae9d0643-8527-4633-adf2-a4bcf3e2cca0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="354c3d4f-4acc-497b-bfc0-724a1cd1c151">
+                    <propertyInstance
+                      Id="8a4ad9d6-20b7-41f1-98f6-8dc638efe972"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f20cea3-9933-4b9d-90c2-177bcafd0e87">
+                    <propertyInstance
+                      Id="41640b25-a2b4-4a7f-84db-1daa03d91944"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b17e6a3-f251-4a12-90dd-c63d12628b98">
+                    <propertyInstance
+                      Id="d8ac5cda-9e03-4413-8879-3779ff83a4f0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="883c799d-e910-4af7-b125-7cb36e70fc06">
+                    <propertyInstance
+                      Id="3b8e766e-36a4-4773-9f6a-00dbe6686a30"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f1ade65-c0fd-4dfb-96cf-36b579069826">
+                    <propertyInstance
+                      Id="5e24e83d-e69c-41a1-9eef-4eb7c1859764"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89f7d35a-899b-49eb-a4ce-69ea3d396dbc">
+                    <propertyInstance
+                      Id="acfb66b9-0686-4119-8df0-29f2ea15b091"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f137bb64-b4d6-4971-8a72-d59e2518b610"
+        LastKnownName="Dealers"
+        LastKnownLocation="Package_0050.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
